@@ -30,7 +30,7 @@ public class MessagesAdapter extends RecyclerView.Adapter{
     final int ITEAM_Receive = 2;
     String senderRoom;
     String recevierRoom;
-    String Jakir;
+
 
     public MessagesAdapter(Context context, ArrayList<Massage>massages,  String senderRoom, String recevierRoom){
       this.context = context;
